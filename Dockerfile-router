@@ -1,0 +1,5 @@
+FROM ffbase
+
+RUN ./build-router.sh
+
+CMD ["./ffrouter/router", "router1"]

@@ -1,0 +1,5 @@
+FROM ffbase
+
+RUN ./build-client.sh
+
+CMD ["/bin/bash"]
