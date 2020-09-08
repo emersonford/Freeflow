@@ -85,6 +85,10 @@ AC_CHECK_LIB(dl, dlsym, [],
     AC_MSG_ERROR([dlsym() not found.  libibverbs requires libdl.]))
 AC_CHECK_LIB(pthread, pthread_mutex_init, [],
     AC_MSG_ERROR([pthread_mutex_init() not found.  libibverbs requires libpthread.]))
+AC_CHECK_LIB(mempool, mempool_create, [],
+    AC_MSG_ERROR([mempool_create() not found.  libibverbs requires libmempool.]))
+AC_CHECK_LIB(rt, shm_open, [], 
+    AC_MSG_ERROR([shm_open() not found.  libibverbs requires librt.]))
 
 dnl Checks for header files.
 AC_HEADER_STDC
