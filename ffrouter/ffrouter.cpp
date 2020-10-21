@@ -213,12 +213,7 @@ FreeFlowRouter::FreeFlowRouter(const char* name) {
     }
 
     this->vip_map["10.47.0.4"] = "192.168.2.13";
-    this->vip_map["10.47.0.6"] = "192.168.2.13";
-    this->vip_map["10.47.0.7"] = "192.168.2.13";
-    this->vip_map["10.47.0.8"] = "192.168.2.13";
-    this->vip_map["10.44.0.3"] = "192.168.2.15";
-    this->vip_map["10.44.0.4"] = "192.168.2.15";
-    this->vip_map["10.44.0.6"] = "192.168.2.15";
+    this->vip_map["10.47.0.5"] = "192.168.2.14";
 }
 
 void FreeFlowRouter::start()

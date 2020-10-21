@@ -74,7 +74,7 @@
 void mem_flush(const void *p, int allocation_size);
 const char HOST_LIST[HOST_NUM][16] = {
     "192.168.2.13",
-    "192.168.2.15"
+    "192.168.2.14"
 };
 
 struct MR_SHM {
