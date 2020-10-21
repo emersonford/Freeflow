@@ -1,3 +1,5 @@
+gcc -shared -fPIC align_malloc.c -o align_malloc.so
+
 cd libmempool
 make
 make install
